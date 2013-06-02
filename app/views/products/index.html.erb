@@ -1,3 +1,9 @@
+<% pro = Product.where(:name => 'dinosaur').first%>
+<p>
+	Name: <%= pro.name %> <br>
+	Price: <%= pro.price %> <br>
+	User: <%= pro.user.name %>
+</p>
 <h2>Hello World</h2>
 <h2> I AMA View </h2>
 <p>
